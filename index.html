@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Datos U</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <LINK REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+ <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+   <script src="main.js" language="javascript" type="text/javascript"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/d3/d3.min.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/d3-transform/src/d3-transform.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/extarray.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/misc.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/cafej/src/micro-observer.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/microplugin/src/microplugin.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/bubble-chart.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/central-click/central-click.js"></script>
+  <script src="http://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/lines/lines.js"></script>
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+
+  <style>
+    .bubbleChart {
+      min-width: 100px;
+      max-width: 700px;
+      height: 700px;
+      margin: 0 auto; 
+    }
+    .bubbleChart svg{
+      
+      position: relative;
+    }
+    #particles-js{
+      position: relative;
+    }
+   
+    #particles-js canvas{
+      position: fixed;
+    }
+
+    .ejesInfo{
+      margin-top: 50%;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    h5{
+      color:rgb(32, 75, 142);
+    }
+
+    footer {
+      color: white;
+    }
+    footer a{
+      color: white;
+    }
+   
+
+  </style>
+</head>
+
+
+<style>
+  body{
+    background: #000000;
+  }
+  #particles-js{
+    width: 100%;
+  }
+</style>
+
+
+<body style="background: black">
+  <div id="particles-js"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-xs-12">
+          <div class="bubbleChart"> </div>
+      </div>
+      <div class="col-md-4 col-xs-12">
+          <div class="ejesInfo">              
+              <br>
+                <ul id="infoData" class="menu">
+                  
+                </ul>
+            </div>
+      </div>
+      
+    </div>
+  
+  </div>
+  
+  
+
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <p class="copyright pull-right">
+          <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart-o" aria-hidden="true"></i> by Karen Galvis, <a href="https://github.com/malejogs" target="_blank">Alejandro Gonzalez</a>, Laura Cortés y Elizabeth Garzon </p></div></footer>
+
+
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<div>
+
+</body>
+</html>
